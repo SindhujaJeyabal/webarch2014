@@ -1,0 +1,13 @@
+WebArch experience:
+I have a basic understanding of HTML and CSS and experience building  
+a barebone application in javascript(backbone.js and node.js).
+
+Favourite features in:
+ Google Chrome:
+1. The Omnibox -  allows searching websites directly, is a unit converter 
+and also a calculator.
+2. Ability to open accidently closed tabs.
+ 
+ Mozilla Firefox
+1. Customisable tools panel
+2. Firebug.
