@@ -1,0 +1,56 @@
+h1{
+	color: white;
+	font-size: 75px;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	text-align: left;
+	margin-top: 17%;
+	margin-left: 3%;
+}
+
+p{
+	color: #EB2332;
+	font-size: 30px;
+	text-align: left;
+	position: fixed;
+	top: 65%;
+	left: 5%;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+h3, h4{
+	color: white;
+	font-size: 24px;
+	text-align: right;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;	
+}
+
+a{
+	color:#A0AFEB;
+	text-decoration: none;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+.qualificationdiv{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	bottom:50%;
+	right:5%;
+	position:fixed;
+}
+
+.contactdiv {
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	bottom:5%;
+	right:5%;
+	position:fixed
+}
+
+h2, .plainList{
+	list-style-type: none;
+	font-style: italic;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
