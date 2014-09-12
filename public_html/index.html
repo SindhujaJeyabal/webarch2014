@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Jim's Page</title>
-    </head>
-    <body>
-        <p>Hello class! This is a tiny HTML page.</p>
-    </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sindhuja Jeyabal</title>
+		<!-- two css files are used-->
+		<link href="text.css" rel="stylesheet" type="text/css" media="all">
+		<link href="bgnImage.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+
+	<body>
+		<!-- This div covers top 50% of the screen-->
+		<div id="topRect">
+			<img id="bgImageTop" src="top.JPG" alt="" />
+			<h1> Sindhuja Jeyabal </h1>
+			<div class="qualificationdiv">
+				<ol class="plainList">
+					<li> <h3> Masters in Information Management and Systems </h3> </li>
+					<li> <h4> <a href="http://ischool.berkeley.edu"> UC Berkeley School of Information </a> </h4> </li>
+				</ol>
+			</div>
+		</div>
+		<!-- This div covers bottom 50% of the screen. The image and text are overlaid.-->
+		<div id="bottomRect">			
+			<img id="bgImageBottom" src="bottom.JPG" alt=""/>
+			<p> Stay tuned.. </p>
+			<!-- More than 1 style is applied from the CSS - contactdiv applies bold and plainlist applies italic-->
+			<div class="contactdiv">
+				<!-- Use of inline css-->
+				<h2 style="text-decoration:underline; font-style:normal; font-size:20px"> Contact: </h2>
+				<!-- Plainlist uses list without bullets-->
+				<ol class="plainList">
+					<li> sindhuja@berkeley.edu </li>
+					<li> +1 408 389 9281 </li>
+				</ol>
+			</div>
+		</div>
+	</body>
 </html>
