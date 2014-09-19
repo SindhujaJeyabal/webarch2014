@@ -7,15 +7,58 @@
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
-		<form id="madlib-input">
-			<p>Please Input your answers below!</p>
+		<form id="myform" name="myform">
+			<p>Write your own story!</p>
 			<!-- inputs... -->
+			<!-- Text fields-->
+			<label for="name"> Your name: </label>
+			<input id="name" type="text" name="name"><br><br>
+
+			<!--Numeric text fields-->
+			<label for="year"> Your favourite number (1 to 10) </label>
+			<input id="year" type="number" name="year" min="1" max="10"><br><br>
+			
+			<label for="place"> Your favourite place: </label>
+			<input id="place" type="text" name="place">
+
+			<!-- radio buttons-->
+			<br><br>
+			<p> Are you a </p>
+			<input id="cat" type="radio" name="pet" value="cat">
+			<label for="cat"> cat person </label> or  a
+
+			<input id="dog" type="radio" name="pet" value="dog">
+			<label for="dog"> dog person </label>?
+
+			<!--Checkboxes-->
+			<p> Your favourite item (Choose one!):</p>
+			
+			<input id="chair" type="checkbox" name="thing" value="chair">
+			<label for="chair"> Chair </label><br>
+			<input id="table" type="checkbox" name="thing" value="table">
+			<label for="table"> Table </label> <br><br>
+
+			<!-- select output -->
+			<br>
+			<label for="color_dd"> Your favourite color: </label>
+			<select id="color_dd" name="color_dd">
+			<option value="Choose" selected>Choose</option>
+			<option value="Red">Red</option>
+			<option value="Pink">Pink</option>
+			<option value="Green">Green</option>
+			<option value="Blue">Blue</option>
+			<option value="Black">Black</option>
+			</select>
+			<br><br>
+
+			<input type="submit" value="Submit"><br><br>
 		</form>
 		
-		<div id="madlib-output">
+		<div id="mad_out">
+			
 		</div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<!-- Optionally include other scripts
         <script src="js/main.js"></script>
 		-->
@@ -23,8 +66,56 @@
         <!-- You may add Javascript functions below -->
         <script>
 			function validate() {
-				if ($("input:first").val() == "correct") {
-					$("#madlib-output").text("input: correct");
+				console.log("Validating");
+				name_val = document.myform.name.value;				
+				year_val = document.myform.year.value;
+				place_val = document.myform.place.value;
+				cat_val = document.myform.pet[0].checked;
+				dog_val = document.myform.pet[1].checked;
+				chair_val = document.myform.thing[0].checked;
+				table_val = document.myform.thing[1].checked;
+				color_val = document.myform.color_dd.selectedIndex;
+				name_t = name_val != "";
+				year_t = ! isNaN(year_val) && year_val >= 1 && year_val <= 10;
+				place_t = place_val != "";
+				radio_t = cat_val || dog_val;
+				check_t = chair_val || table_val ;
+				select_t = color_val != 0;
+
+				if ( name_t && year_t && place_t && radio_t && check_t && select_t)
+				{
+					mad_text = "";
+					call_name = "";
+					enemy_name = "";
+					if(cat_val)
+					{
+						call_name = "Pussy cat, Pussy cat,";
+						enemy_name = "mouse";
+					}	
+					else
+					{
+						call_name = "Barkie dog, Barkie dog,";
+						enemy_name = "cat";
+					}
+					mad_text += call_name;
+					mad_text +=  "where have you been? I've been to ";
+					mad_text += place_val + " to look at the Queen. ";
+					mad_text += call_name + " what did you do there? I frightened a little ";
+					mad_text += enemy_name;
+					mad_text += ", near the ";
+					mad_text += document.myform.color_dd.value;
+					if(chair_val && ! table_val)
+						mad_text += " chair.";
+					else if (!chair_val && table_val)
+						mad_text += " table.";
+					else
+						mad_text += " table and chair.";
+
+					mad_text += "\n\n";
+					mad_text += "Created by:" + name_val;
+					mad_text += "\n\nWritten " + year_val + " years ago!"
+
+				 	document.getElementById("mad_out").innerHTML = mad_text;
 				} else {
 					alert("Error!");
 				}
@@ -32,7 +123,8 @@
 			}
 
 			$(document).ready(function() {
-				$("#madlib-input").submit(validate);
+				console.log("vali");
+				$("#myform").submit(validate);
 				console.log("ready!");
 			});
         </script>
