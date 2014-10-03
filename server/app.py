@@ -62,8 +62,11 @@ def i253():
     relationship = request.args.get("relationship", "friend")
     name = request.args.get("name", "Jim")
     adjective = request.args.get("adjective", "fun")
-
-    resp = flask.make_response(
+    accept_type = "text/html"
+    if "Accept" in request.headers:
+        accept_type = request.headers["Accept"]
+    if accept_type == 'image/png':
+        resp = flask.make_response(
             check_output(['convert', '-size', '600x400', 'xc:transparent',
                 '-frame', '10x30',
                 '-font', '/usr/share/fonts/liberation/LiberationSerif-BoldItalic.ttf',
@@ -74,10 +77,11 @@ def i253():
                 '-raise', '30',
                 'png:-']), 200);
     # Comment in to set header below
-    # resp.headers['Content-Type'] = '...'
-
-    return resp
-
+        resp.headers['Content-Type'] = 'image/png'
+        return resp
+    else:
+        resp = flask.render_template('text.html',relation=relationship,name=name,adj=adjective)
+        return resp
 
 if __name__ == "__main__":
     app.run(port=int(environ['FLASK_PORT']))
