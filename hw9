@@ -1,0 +1,48 @@
+HW9 – mysql										           INFO 253
+										             Sindhuja Jeyabal
+
+Question 1.1:
+select * from links where created > '2014-10-14';
++----------------------+-----------+-----------+------------+
+| long_url             | short_url | hit_count | created    |
++----------------------+-----------+-----------+------------+
+| http://baidu.com     | 71bce     |        71 | 2014-10-22 |
+| http://ebay.com      | b0f7e     |        76 | 2014-10-17 |
+| http://google.com    | 891cb     |       137 | 2014-10-16 |
+| http://hao123.com    | 9e898     |       181 | 2014-10-15 |
+| http://live.com      | d2c05     |        67 | 2014-10-15 |
+| http://wordpress.com | 8686e     |       142 | 2014-10-20 |
++----------------------+-----------+-----------+------------+
+Ans: Number of links added after 2014-10-14 : 6
+Question 1.2: 
+select * from links where (created < '2014-10-14' and hit_count < 40);
++---------------------+-----------+-----------+------------+
+| long_url            | short_url | hit_count | created    |
++---------------------+-----------+-----------+------------+
+| http://blogspot.com | 04789     |        32 | 2014-09-14 |
+| http://facebook.com | 6733e     |        32 | 2014-08-30 |
+| http://google.de    | 5f379     |         7 | 2014-10-07 |
+| http://yahoo.co.jp  | 8b26f     |        39 | 2014-08-31 |
++---------------------+-----------+-----------+------------+
+Ans: Number of links added before 2014-10-14 and hit count < 40: 4
+Question 2.1:
+insert into links VALUES('http://mashable.com', 'mashq', 41, '2013-10-14');
+a SELECT query on the db returned the entry just made
+http://linkedin.com  | d4234     |       194 | 2014-10-04 |
+| http://live.com      | d2c05     |        67 | 2014-10-15 |
+| http://mashable.com  | mashq     |        41 | 2013-10-14 |
+| http://qq.com        | cab9d     |       196 | 2014-09-13 |
+
+Question 2.2:
+It is not possible for someone to see a partial entry made into the database. This is because the transactions (INSERT here) are atomic. In other words, it either is completely done or not started. This follows the ATOMICITY property of the database.
+
+Question 3:
+update links set hit_count = hit_count + 1 where long_url = 'http://mashable.com';
+
+select * from links where long_url = 'http://mashable.com' ;
++---------------------+-----------+-----------+------------+
+| long_url            | short_url | hit_count | created    |
++---------------------+-----------+-----------+------------+
+| http://mashable.com | mashq     |        42 | 2013-10-14 |
++---------------------+-----------+-----------+------------+
+The count was incremented from 41 to 42.The new count is 42.
