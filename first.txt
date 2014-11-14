@@ -1,0 +1,2129 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Fri, 10 Oct 2014 00:36:40 GMT
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 19
+X-RateLimit-Reset: 1412902221
+Cache-Control: public, max-age=60, s-maxage=60
+Last-Modified: Tue, 30 Sep 2014 06:28:17 GMT
+ETag: "c36e1c851e5e6c74e8b92780e88a1ecb"
+Vary: Accept
+X-GitHub-Media-Type: github.v3
+Link: <https://api.github.com/repositories/5537283/commits?since=2012-08-24T07%3A44%3A17Z&page=2>; rel="next"
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: deny
+Content-Security-Policy: default-src 'none'
+Content-Length: 102577
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+X-GitHub-Request-Id: 80204E10:6BE8:B51353:54372A18
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+X-Served-By: 03d91026ad8428f4d9966d7434f9d82e
+
+[
+  {
+    "sha": "9726624afce0cc7fc9f8d540465d705485eecf03",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-30T06:28:17Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-30T06:28:17Z"
+      },
+      "message": "video links",
+      "tree": {
+        "sha": "a4a97e348d28a32dc79830cc5515b0fbc4ab693c",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/a4a97e348d28a32dc79830cc5515b0fbc4ab693c"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/9726624afce0cc7fc9f8d540465d705485eecf03",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/9726624afce0cc7fc9f8d540465d705485eecf03",
+    "html_url": "https://github.com/jblomo/webarch253/commit/9726624afce0cc7fc9f8d540465d705485eecf03",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/9726624afce0cc7fc9f8d540465d705485eecf03/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7d0c29c258b1db172c2769eeda64e7f99a908035",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/7d0c29c258b1db172c2769eeda64e7f99a908035",
+        "html_url": "https://github.com/jblomo/webarch253/commit/7d0c29c258b1db172c2769eeda64e7f99a908035"
+      }
+    ]
+  },
+  {
+    "sha": "7d0c29c258b1db172c2769eeda64e7f99a908035",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-30T05:36:24Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-30T05:36:24Z"
+      },
+      "message": "hit actual html file",
+      "tree": {
+        "sha": "46baddf1b5aeb2ac4c568557084a22860a658a94",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/46baddf1b5aeb2ac4c568557084a22860a658a94"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/7d0c29c258b1db172c2769eeda64e7f99a908035",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/7d0c29c258b1db172c2769eeda64e7f99a908035",
+    "html_url": "https://github.com/jblomo/webarch253/commit/7d0c29c258b1db172c2769eeda64e7f99a908035",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/7d0c29c258b1db172c2769eeda64e7f99a908035/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "01ef52770ffa4b646e20f9feab5d2c9ff636e9f0",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/01ef52770ffa4b646e20f9feab5d2c9ff636e9f0",
+        "html_url": "https://github.com/jblomo/webarch253/commit/01ef52770ffa4b646e20f9feab5d2c9ff636e9f0"
+      }
+    ]
+  },
+  {
+    "sha": "01ef52770ffa4b646e20f9feab5d2c9ff636e9f0",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-30T05:27:45Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-30T05:27:45Z"
+      },
+      "message": "use a working example",
+      "tree": {
+        "sha": "acf4d71231f83d455bd8e08b9807bbfa4d20910b",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/acf4d71231f83d455bd8e08b9807bbfa4d20910b"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/01ef52770ffa4b646e20f9feab5d2c9ff636e9f0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/01ef52770ffa4b646e20f9feab5d2c9ff636e9f0",
+    "html_url": "https://github.com/jblomo/webarch253/commit/01ef52770ffa4b646e20f9feab5d2c9ff636e9f0",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/01ef52770ffa4b646e20f9feab5d2c9ff636e9f0/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592",
+        "html_url": "https://github.com/jblomo/webarch253/commit/02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592"
+      }
+    ]
+  },
+  {
+    "sha": "02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-28T20:03:09Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-28T20:03:09Z"
+      },
+      "message": "cookies and rest",
+      "tree": {
+        "sha": "be09af61c9d4942e676b144cace32dbc567d480f",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/be09af61c9d4942e676b144cace32dbc567d480f"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592",
+    "html_url": "https://github.com/jblomo/webarch253/commit/02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/02e96d5b13ed42e8e6cd00941ecc1e5a8fa7c592/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "54f03af5099e007f811c71443b5f8623e7c5247a",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/54f03af5099e007f811c71443b5f8623e7c5247a",
+        "html_url": "https://github.com/jblomo/webarch253/commit/54f03af5099e007f811c71443b5f8623e7c5247a"
+      }
+    ]
+  },
+  {
+    "sha": "54f03af5099e007f811c71443b5f8623e7c5247a",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-26T20:59:08Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-26T20:59:08Z"
+      },
+      "message": "update HTML",
+      "tree": {
+        "sha": "de45f61c06847235e86bfa682b20052b6e70a689",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/de45f61c06847235e86bfa682b20052b6e70a689"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/54f03af5099e007f811c71443b5f8623e7c5247a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/54f03af5099e007f811c71443b5f8623e7c5247a",
+    "html_url": "https://github.com/jblomo/webarch253/commit/54f03af5099e007f811c71443b5f8623e7c5247a",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/54f03af5099e007f811c71443b5f8623e7c5247a/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "db3e6e80be872d743aac90c229736d9f7c4f2b50",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/db3e6e80be872d743aac90c229736d9f7c4f2b50",
+        "html_url": "https://github.com/jblomo/webarch253/commit/db3e6e80be872d743aac90c229736d9f7c4f2b50"
+      }
+    ]
+  },
+  {
+    "sha": "db3e6e80be872d743aac90c229736d9f7c4f2b50",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-26T16:42:27Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-26T16:42:27Z"
+      },
+      "message": "more notes",
+      "tree": {
+        "sha": "3b73ea64171c48f6c831d2088546217e100751da",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/3b73ea64171c48f6c831d2088546217e100751da"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/db3e6e80be872d743aac90c229736d9f7c4f2b50",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/db3e6e80be872d743aac90c229736d9f7c4f2b50",
+    "html_url": "https://github.com/jblomo/webarch253/commit/db3e6e80be872d743aac90c229736d9f7c4f2b50",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/db3e6e80be872d743aac90c229736d9f7c4f2b50/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d502e55a18ba9cf20edc21315f9e4037557c3f39",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/d502e55a18ba9cf20edc21315f9e4037557c3f39",
+        "html_url": "https://github.com/jblomo/webarch253/commit/d502e55a18ba9cf20edc21315f9e4037557c3f39"
+      }
+    ]
+  },
+  {
+    "sha": "d502e55a18ba9cf20edc21315f9e4037557c3f39",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-26T06:59:23Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-26T06:59:23Z"
+      },
+      "message": "HTTP State and Data",
+      "tree": {
+        "sha": "7c2689e75368a671c71f5763cffa87632071f2f2",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/7c2689e75368a671c71f5763cffa87632071f2f2"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/d502e55a18ba9cf20edc21315f9e4037557c3f39",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/d502e55a18ba9cf20edc21315f9e4037557c3f39",
+    "html_url": "https://github.com/jblomo/webarch253/commit/d502e55a18ba9cf20edc21315f9e4037557c3f39",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/d502e55a18ba9cf20edc21315f9e4037557c3f39/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2a80304faa95d3fd02a6047214b8f9008bb80ec7",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/2a80304faa95d3fd02a6047214b8f9008bb80ec7",
+        "html_url": "https://github.com/jblomo/webarch253/commit/2a80304faa95d3fd02a6047214b8f9008bb80ec7"
+      }
+    ]
+  },
+  {
+    "sha": "2a80304faa95d3fd02a6047214b8f9008bb80ec7",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-19T06:21:32Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-19T06:21:32Z"
+      },
+      "message": "HTTP slides",
+      "tree": {
+        "sha": "1264b39b608785d3b1d9f82977f06f7a4238c071",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/1264b39b608785d3b1d9f82977f06f7a4238c071"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/2a80304faa95d3fd02a6047214b8f9008bb80ec7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/2a80304faa95d3fd02a6047214b8f9008bb80ec7",
+    "html_url": "https://github.com/jblomo/webarch253/commit/2a80304faa95d3fd02a6047214b8f9008bb80ec7",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/2a80304faa95d3fd02a6047214b8f9008bb80ec7/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a9a757aee15a09b782dea05500a4cba7016040d4",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/a9a757aee15a09b782dea05500a4cba7016040d4",
+        "html_url": "https://github.com/jblomo/webarch253/commit/a9a757aee15a09b782dea05500a4cba7016040d4"
+      }
+    ]
+  },
+  {
+    "sha": "a9a757aee15a09b782dea05500a4cba7016040d4",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-12T07:49:44Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-12T07:49:44Z"
+      },
+      "message": "forms and javascript",
+      "tree": {
+        "sha": "fb2291d6b02505fd6ef11808fc5deaf8a63828d6",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/fb2291d6b02505fd6ef11808fc5deaf8a63828d6"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/a9a757aee15a09b782dea05500a4cba7016040d4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/a9a757aee15a09b782dea05500a4cba7016040d4",
+    "html_url": "https://github.com/jblomo/webarch253/commit/a9a757aee15a09b782dea05500a4cba7016040d4",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/a9a757aee15a09b782dea05500a4cba7016040d4/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cca459eda3450d2fc25225dd0c30c61a11458b4a",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/cca459eda3450d2fc25225dd0c30c61a11458b4a",
+        "html_url": "https://github.com/jblomo/webarch253/commit/cca459eda3450d2fc25225dd0c30c61a11458b4a"
+      }
+    ]
+  },
+  {
+    "sha": "cca459eda3450d2fc25225dd0c30c61a11458b4a",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-05T17:40:51Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-05T17:41:10Z"
+      },
+      "message": "formatting update",
+      "tree": {
+        "sha": "36fbe931b5df18be2fe94e486e260e58f54fb288",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/36fbe931b5df18be2fe94e486e260e58f54fb288"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/cca459eda3450d2fc25225dd0c30c61a11458b4a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/cca459eda3450d2fc25225dd0c30c61a11458b4a",
+    "html_url": "https://github.com/jblomo/webarch253/commit/cca459eda3450d2fc25225dd0c30c61a11458b4a",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/cca459eda3450d2fc25225dd0c30c61a11458b4a/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6b6014b71cb31c7681648f0871bfd560d9b51d91",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/6b6014b71cb31c7681648f0871bfd560d9b51d91",
+        "html_url": "https://github.com/jblomo/webarch253/commit/6b6014b71cb31c7681648f0871bfd560d9b51d91"
+      }
+    ]
+  },
+  {
+    "sha": "6b6014b71cb31c7681648f0871bfd560d9b51d91",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-05T05:16:45Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-09-05T05:16:45Z"
+      },
+      "message": "HTML & CSS",
+      "tree": {
+        "sha": "4ab578ae62c9ce35b478bf5e5f9e01349fb5afd9",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/4ab578ae62c9ce35b478bf5e5f9e01349fb5afd9"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/6b6014b71cb31c7681648f0871bfd560d9b51d91",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/6b6014b71cb31c7681648f0871bfd560d9b51d91",
+    "html_url": "https://github.com/jblomo/webarch253/commit/6b6014b71cb31c7681648f0871bfd560d9b51d91",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/6b6014b71cb31c7681648f0871bfd560d9b51d91/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9fe28076e94571fd4231bffa2750073dc2f99e3d",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/9fe28076e94571fd4231bffa2750073dc2f99e3d",
+        "html_url": "https://github.com/jblomo/webarch253/commit/9fe28076e94571fd4231bffa2750073dc2f99e3d"
+      }
+    ]
+  },
+  {
+    "sha": "9fe28076e94571fd4231bffa2750073dc2f99e3d",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T22:39:56Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T22:39:56Z"
+      },
+      "message": "reading",
+      "tree": {
+        "sha": "a32618d96c9c969aa232783cd65e288916777a80",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/a32618d96c9c969aa232783cd65e288916777a80"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/9fe28076e94571fd4231bffa2750073dc2f99e3d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/9fe28076e94571fd4231bffa2750073dc2f99e3d",
+    "html_url": "https://github.com/jblomo/webarch253/commit/9fe28076e94571fd4231bffa2750073dc2f99e3d",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/9fe28076e94571fd4231bffa2750073dc2f99e3d/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492",
+        "html_url": "https://github.com/jblomo/webarch253/commit/7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492"
+      }
+    ]
+  },
+  {
+    "sha": "7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T17:36:29Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T17:36:29Z"
+      },
+      "message": "year correction; Molly info",
+      "tree": {
+        "sha": "4efbf7306a93842fb7746eb1b43dd221f1b5fe33",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/4efbf7306a93842fb7746eb1b43dd221f1b5fe33"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492",
+    "html_url": "https://github.com/jblomo/webarch253/commit/7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/7c850e5303b94ec3e854e8c8c2a8ef41ceaf7492/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "351a33aac76d126f6152325c8362caaa49bc0d06",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/351a33aac76d126f6152325c8362caaa49bc0d06",
+        "html_url": "https://github.com/jblomo/webarch253/commit/351a33aac76d126f6152325c8362caaa49bc0d06"
+      }
+    ]
+  },
+  {
+    "sha": "351a33aac76d126f6152325c8362caaa49bc0d06",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T17:28:52Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T17:28:52Z"
+      },
+      "message": "found reading",
+      "tree": {
+        "sha": "39bc96f0ab12cbd332d45e993596faf4d9c25876",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/39bc96f0ab12cbd332d45e993596faf4d9c25876"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/351a33aac76d126f6152325c8362caaa49bc0d06",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/351a33aac76d126f6152325c8362caaa49bc0d06",
+    "html_url": "https://github.com/jblomo/webarch253/commit/351a33aac76d126f6152325c8362caaa49bc0d06",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/351a33aac76d126f6152325c8362caaa49bc0d06/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "028a0a08d71ed35537ffc6efb514ae6570001264",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/028a0a08d71ed35537ffc6efb514ae6570001264",
+        "html_url": "https://github.com/jblomo/webarch253/commit/028a0a08d71ed35537ffc6efb514ae6570001264"
+      }
+    ]
+  },
+  {
+    "sha": "028a0a08d71ed35537ffc6efb514ae6570001264",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T07:29:45Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-29T07:29:45Z"
+      },
+      "message": "update for new semester",
+      "tree": {
+        "sha": "2a105d51bb6b07461d0ba400b18bdf506265b020",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/2a105d51bb6b07461d0ba400b18bdf506265b020"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/028a0a08d71ed35537ffc6efb514ae6570001264",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/028a0a08d71ed35537ffc6efb514ae6570001264",
+    "html_url": "https://github.com/jblomo/webarch253/commit/028a0a08d71ed35537ffc6efb514ae6570001264",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/028a0a08d71ed35537ffc6efb514ae6570001264/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5137d3660a3554c790948ae285f44c47ca9985d",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/f5137d3660a3554c790948ae285f44c47ca9985d",
+        "html_url": "https://github.com/jblomo/webarch253/commit/f5137d3660a3554c790948ae285f44c47ca9985d"
+      }
+    ]
+  },
+  {
+    "sha": "f5137d3660a3554c790948ae285f44c47ca9985d",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-27T07:06:41Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2014-08-27T07:06:41Z"
+      },
+      "message": "cleanup for Fall 2014",
+      "tree": {
+        "sha": "0cd0a5ef0e4d83cc5735581ad55aa5a446ac311c",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/0cd0a5ef0e4d83cc5735581ad55aa5a446ac311c"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/f5137d3660a3554c790948ae285f44c47ca9985d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/f5137d3660a3554c790948ae285f44c47ca9985d",
+    "html_url": "https://github.com/jblomo/webarch253/commit/f5137d3660a3554c790948ae285f44c47ca9985d",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/f5137d3660a3554c790948ae285f44c47ca9985d/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3fc1915d3271df88e79123f304e62177e658bd89",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/3fc1915d3271df88e79123f304e62177e658bd89",
+        "html_url": "https://github.com/jblomo/webarch253/commit/3fc1915d3271df88e79123f304e62177e658bd89"
+      }
+    ]
+  },
+  {
+    "sha": "3fc1915d3271df88e79123f304e62177e658bd89",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-12-06T09:56:59Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-12-06T09:56:59Z"
+      },
+      "message": "last lecutre",
+      "tree": {
+        "sha": "87ba9e14d3a3ff79b9c27bfa7621833de01372f8",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/87ba9e14d3a3ff79b9c27bfa7621833de01372f8"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/3fc1915d3271df88e79123f304e62177e658bd89",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/3fc1915d3271df88e79123f304e62177e658bd89",
+    "html_url": "https://github.com/jblomo/webarch253/commit/3fc1915d3271df88e79123f304e62177e658bd89",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/3fc1915d3271df88e79123f304e62177e658bd89/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "895fd2c96e3f57f508b3302962cdf037da013423",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/895fd2c96e3f57f508b3302962cdf037da013423",
+        "html_url": "https://github.com/jblomo/webarch253/commit/895fd2c96e3f57f508b3302962cdf037da013423"
+      }
+    ]
+  },
+  {
+    "sha": "895fd2c96e3f57f508b3302962cdf037da013423",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T08:08:35Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T08:08:35Z"
+      },
+      "message": "reflect directory change",
+      "tree": {
+        "sha": "23b189e7f6be9338f14b71cdcfb2def94c007313",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/23b189e7f6be9338f14b71cdcfb2def94c007313"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/895fd2c96e3f57f508b3302962cdf037da013423",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/895fd2c96e3f57f508b3302962cdf037da013423",
+    "html_url": "https://github.com/jblomo/webarch253/commit/895fd2c96e3f57f508b3302962cdf037da013423",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/895fd2c96e3f57f508b3302962cdf037da013423/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f0dc8885df5f059359548c8868b0ec3f4b560106",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/f0dc8885df5f059359548c8868b0ec3f4b560106",
+        "html_url": "https://github.com/jblomo/webarch253/commit/f0dc8885df5f059359548c8868b0ec3f4b560106"
+      }
+    ]
+  },
+  {
+    "sha": "f0dc8885df5f059359548c8868b0ec3f4b560106",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T08:04:17Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T08:04:17Z"
+      },
+      "message": "avoid mrjob name conflict",
+      "tree": {
+        "sha": "d1c8068a42ef01935e3c647df4d6627283f5ed96",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/d1c8068a42ef01935e3c647df4d6627283f5ed96"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/f0dc8885df5f059359548c8868b0ec3f4b560106",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/f0dc8885df5f059359548c8868b0ec3f4b560106",
+    "html_url": "https://github.com/jblomo/webarch253/commit/f0dc8885df5f059359548c8868b0ec3f4b560106",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/f0dc8885df5f059359548c8868b0ec3f4b560106/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "96cbfb3c204caebbab98a516d65d931b77778388",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/96cbfb3c204caebbab98a516d65d931b77778388",
+        "html_url": "https://github.com/jblomo/webarch253/commit/96cbfb3c204caebbab98a516d65d931b77778388"
+      }
+    ]
+  },
+  {
+    "sha": "96cbfb3c204caebbab98a516d65d931b77778388",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T08:00:09Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T08:00:09Z"
+      },
+      "message": "homeworks update",
+      "tree": {
+        "sha": "cf08d630ad3800fe82b45db614725815604155f1",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/cf08d630ad3800fe82b45db614725815604155f1"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/96cbfb3c204caebbab98a516d65d931b77778388",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/96cbfb3c204caebbab98a516d65d931b77778388",
+    "html_url": "https://github.com/jblomo/webarch253/commit/96cbfb3c204caebbab98a516d65d931b77778388",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/96cbfb3c204caebbab98a516d65d931b77778388/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ceaef743053ce8876f5aff7c0cd4afab2c2754c7",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/ceaef743053ce8876f5aff7c0cd4afab2c2754c7",
+        "html_url": "https://github.com/jblomo/webarch253/commit/ceaef743053ce8876f5aff7c0cd4afab2c2754c7"
+      }
+    ]
+  },
+  {
+    "sha": "ceaef743053ce8876f5aff7c0cd4afab2c2754c7",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T07:57:38Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-22T07:57:38Z"
+      },
+      "message": "data slides and homework",
+      "tree": {
+        "sha": "8de5c88a8efb5c28085cc9e8a333bd66e692acab",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/8de5c88a8efb5c28085cc9e8a333bd66e692acab"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/ceaef743053ce8876f5aff7c0cd4afab2c2754c7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/ceaef743053ce8876f5aff7c0cd4afab2c2754c7",
+    "html_url": "https://github.com/jblomo/webarch253/commit/ceaef743053ce8876f5aff7c0cd4afab2c2754c7",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/ceaef743053ce8876f5aff7c0cd4afab2c2754c7/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4bc70040dbd8e0e208549ab2c435c9cb7961a0f2",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/4bc70040dbd8e0e208549ab2c435c9cb7961a0f2",
+        "html_url": "https://github.com/jblomo/webarch253/commit/4bc70040dbd8e0e208549ab2c435c9cb7961a0f2"
+      }
+    ]
+  },
+  {
+    "sha": "4bc70040dbd8e0e208549ab2c435c9cb7961a0f2",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-20T06:37:40Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-20T06:38:08Z"
+      },
+      "message": "data mining slides",
+      "tree": {
+        "sha": "2b0308fe6842d920c77bb4a326dfea7aae17f754",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/2b0308fe6842d920c77bb4a326dfea7aae17f754"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/4bc70040dbd8e0e208549ab2c435c9cb7961a0f2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/4bc70040dbd8e0e208549ab2c435c9cb7961a0f2",
+    "html_url": "https://github.com/jblomo/webarch253/commit/4bc70040dbd8e0e208549ab2c435c9cb7961a0f2",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/4bc70040dbd8e0e208549ab2c435c9cb7961a0f2/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9fed6f69ecc12d6dd332b630057cc69a61cb0a40",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/9fed6f69ecc12d6dd332b630057cc69a61cb0a40",
+        "html_url": "https://github.com/jblomo/webarch253/commit/9fed6f69ecc12d6dd332b630057cc69a61cb0a40"
+      }
+    ]
+  },
+  {
+    "sha": "9fed6f69ecc12d6dd332b630057cc69a61cb0a40",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-08T08:18:04Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-08T08:18:04Z"
+      },
+      "message": "updated references for Search/SEO",
+      "tree": {
+        "sha": "c2fdd2e591fd4a1f37fdafe333a0bb4bd01cfe62",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/c2fdd2e591fd4a1f37fdafe333a0bb4bd01cfe62"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/9fed6f69ecc12d6dd332b630057cc69a61cb0a40",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/9fed6f69ecc12d6dd332b630057cc69a61cb0a40",
+    "html_url": "https://github.com/jblomo/webarch253/commit/9fed6f69ecc12d6dd332b630057cc69a61cb0a40",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/9fed6f69ecc12d6dd332b630057cc69a61cb0a40/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "38b2da9de68d812668eb280bba76a16c445ed31b",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/38b2da9de68d812668eb280bba76a16c445ed31b",
+        "html_url": "https://github.com/jblomo/webarch253/commit/38b2da9de68d812668eb280bba76a16c445ed31b"
+      }
+    ]
+  },
+  {
+    "sha": "38b2da9de68d812668eb280bba76a16c445ed31b",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-06T07:00:36Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-06T07:00:36Z"
+      },
+      "message": "mobile first draft",
+      "tree": {
+        "sha": "c734383866a5bcf70f4bcac22922293757e585c5",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/c734383866a5bcf70f4bcac22922293757e585c5"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/38b2da9de68d812668eb280bba76a16c445ed31b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/38b2da9de68d812668eb280bba76a16c445ed31b",
+    "html_url": "https://github.com/jblomo/webarch253/commit/38b2da9de68d812668eb280bba76a16c445ed31b",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/38b2da9de68d812668eb280bba76a16c445ed31b/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a245f88483726feb2bf13e2c707faed0ee44af56",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/a245f88483726feb2bf13e2c707faed0ee44af56",
+        "html_url": "https://github.com/jblomo/webarch253/commit/a245f88483726feb2bf13e2c707faed0ee44af56"
+      }
+    ]
+  },
+  {
+    "sha": "a245f88483726feb2bf13e2c707faed0ee44af56",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-06T02:17:43Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-06T02:17:43Z"
+      },
+      "message": "fix markup",
+      "tree": {
+        "sha": "043fcf6722a2a48fce1cd864a2742134eb178718",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/043fcf6722a2a48fce1cd864a2742134eb178718"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/a245f88483726feb2bf13e2c707faed0ee44af56",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/a245f88483726feb2bf13e2c707faed0ee44af56",
+    "html_url": "https://github.com/jblomo/webarch253/commit/a245f88483726feb2bf13e2c707faed0ee44af56",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/a245f88483726feb2bf13e2c707faed0ee44af56/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3ed10c5a7f19195d50d4e1ff57864389d89d47ee",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/3ed10c5a7f19195d50d4e1ff57864389d89d47ee",
+        "html_url": "https://github.com/jblomo/webarch253/commit/3ed10c5a7f19195d50d4e1ff57864389d89d47ee"
+      }
+    ]
+  },
+  {
+    "sha": "3ed10c5a7f19195d50d4e1ff57864389d89d47ee",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-04T07:55:09Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-04T07:55:09Z"
+      },
+      "message": "Initinal slides for search week",
+      "tree": {
+        "sha": "8b6f7c0734afd417f07f007054a990b2807ac4dd",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/8b6f7c0734afd417f07f007054a990b2807ac4dd"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/3ed10c5a7f19195d50d4e1ff57864389d89d47ee",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/3ed10c5a7f19195d50d4e1ff57864389d89d47ee",
+    "html_url": "https://github.com/jblomo/webarch253/commit/3ed10c5a7f19195d50d4e1ff57864389d89d47ee",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/3ed10c5a7f19195d50d4e1ff57864389d89d47ee/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9fc2cfd8c70c9747a96792bcc02f2174ececcce8",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/9fc2cfd8c70c9747a96792bcc02f2174ececcce8",
+        "html_url": "https://github.com/jblomo/webarch253/commit/9fc2cfd8c70c9747a96792bcc02f2174ececcce8"
+      }
+    ]
+  },
+  {
+    "sha": "9fc2cfd8c70c9747a96792bcc02f2174ececcce8",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-04T07:25:22Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-04T07:25:22Z"
+      },
+      "message": "Microdata ; HW name correction",
+      "tree": {
+        "sha": "4107a4d58189dea4c9fc382c63200448bf335de8",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/4107a4d58189dea4c9fc382c63200448bf335de8"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/9fc2cfd8c70c9747a96792bcc02f2174ececcce8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/9fc2cfd8c70c9747a96792bcc02f2174ececcce8",
+    "html_url": "https://github.com/jblomo/webarch253/commit/9fc2cfd8c70c9747a96792bcc02f2174ececcce8",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/9fc2cfd8c70c9747a96792bcc02f2174ececcce8/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b3c92bb664a0dbc51a6200a71a6a99ba01bb521d",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/b3c92bb664a0dbc51a6200a71a6a99ba01bb521d",
+        "html_url": "https://github.com/jblomo/webarch253/commit/b3c92bb664a0dbc51a6200a71a6a99ba01bb521d"
+      }
+    ]
+  },
+  {
+    "sha": "b3c92bb664a0dbc51a6200a71a6a99ba01bb521d",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-01T07:10:11Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-01T07:10:11Z"
+      },
+      "message": "Storage Systems",
+      "tree": {
+        "sha": "143272c9e186800b9cb3465afd75108cb3544d9e",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/143272c9e186800b9cb3465afd75108cb3544d9e"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/b3c92bb664a0dbc51a6200a71a6a99ba01bb521d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/b3c92bb664a0dbc51a6200a71a6a99ba01bb521d",
+    "html_url": "https://github.com/jblomo/webarch253/commit/b3c92bb664a0dbc51a6200a71a6a99ba01bb521d",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/b3c92bb664a0dbc51a6200a71a6a99ba01bb521d/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e52622d10eedd62224cadd08a3ed968f6bd7e79",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/4e52622d10eedd62224cadd08a3ed968f6bd7e79",
+        "html_url": "https://github.com/jblomo/webarch253/commit/4e52622d10eedd62224cadd08a3ed968f6bd7e79"
+      }
+    ]
+  },
+  {
+    "sha": "4e52622d10eedd62224cadd08a3ed968f6bd7e79",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-01T06:06:13Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-11-01T06:06:13Z"
+      },
+      "message": "copy over slides",
+      "tree": {
+        "sha": "c148de504f855d6c5bafb960b8aa56dc35736a1f",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/c148de504f855d6c5bafb960b8aa56dc35736a1f"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/4e52622d10eedd62224cadd08a3ed968f6bd7e79",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/4e52622d10eedd62224cadd08a3ed968f6bd7e79",
+    "html_url": "https://github.com/jblomo/webarch253/commit/4e52622d10eedd62224cadd08a3ed968f6bd7e79",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/4e52622d10eedd62224cadd08a3ed968f6bd7e79/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8d64eae6edd361307edbcde762f4c94b97bdbee7",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/8d64eae6edd361307edbcde762f4c94b97bdbee7",
+        "html_url": "https://github.com/jblomo/webarch253/commit/8d64eae6edd361307edbcde762f4c94b97bdbee7"
+      }
+    ]
+  },
+  {
+    "sha": "8d64eae6edd361307edbcde762f4c94b97bdbee7",
+    "commit": {
+      "author": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-10-18T18:28:02Z"
+      },
+      "committer": {
+        "name": "Jim Blomo",
+        "email": "jim.blomo+github@gmail.com",
+        "date": "2013-10-18T18:28:02Z"
+      },
+      "message": "Frontend slides",
+      "tree": {
+        "sha": "1d6b40ac1c0e54fdc5e747716fd17bb87d47f8fc",
+        "url": "https://api.github.com/repos/jblomo/webarch253/git/trees/1d6b40ac1c0e54fdc5e747716fd17bb87d47f8fc"
+      },
+      "url": "https://api.github.com/repos/jblomo/webarch253/git/commits/8d64eae6edd361307edbcde762f4c94b97bdbee7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jblomo/webarch253/commits/8d64eae6edd361307edbcde762f4c94b97bdbee7",
+    "html_url": "https://github.com/jblomo/webarch253/commit/8d64eae6edd361307edbcde762f4c94b97bdbee7",
+    "comments_url": "https://api.github.com/repos/jblomo/webarch253/commits/8d64eae6edd361307edbcde762f4c94b97bdbee7/comments",
+    "author": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jblomo",
+      "id": 45173,
+      "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jblomo",
+      "html_url": "https://github.com/jblomo",
+      "followers_url": "https://api.github.com/users/jblomo/followers",
+      "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+      "organizations_url": "https://api.github.com/users/jblomo/orgs",
+      "repos_url": "https://api.github.com/users/jblomo/repos",
+      "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jblomo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f16373f0ad0c9549b2eb59be3735d071a0879b8a",
+        "url": "https://api.github.com/repos/jblomo/webarch253/commits/f16373f0ad0c9549b2eb59be3735d071a0879b8a",
+        "html_url": "https://github.com/jblomo/webarch253/commit/f16373f0ad0c9549b2eb59be3735d071a0879b8a"
+      }
+    ]
+  }
+]

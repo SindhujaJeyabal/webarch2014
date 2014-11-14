@@ -1,0 +1,58 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Fri, 10 Oct 2014 00:08:11 GMT
+Content-Type: application/json; charset=utf-8
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 49
+X-RateLimit-Reset: 1412902221
+Cache-Control: public, max-age=60, s-maxage=60
+Last-Modified: Wed, 08 Oct 2014 18:50:25 GMT
+ETag: "d98aed25d6970b752ce3be831ffaceed"
+Vary: Accept
+X-GitHub-Media-Type: github.v3
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: deny
+Content-Security-Policy: default-src 'none'
+Content-Length: 1255
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+X-GitHub-Request-Id: 80204E10:2C56:DDE217:5437236B
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+X-Served-By: 03d91026ad8428f4d9966d7434f9d82e
+
+{
+  "login": "jblomo",
+  "id": 45173,
+  "avatar_url": "https://avatars.githubusercontent.com/u/45173?v=2",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/jblomo",
+  "html_url": "https://github.com/jblomo",
+  "followers_url": "https://api.github.com/users/jblomo/followers",
+  "following_url": "https://api.github.com/users/jblomo/following{/other_user}",
+  "gists_url": "https://api.github.com/users/jblomo/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/jblomo/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/jblomo/subscriptions",
+  "organizations_url": "https://api.github.com/users/jblomo/orgs",
+  "repos_url": "https://api.github.com/users/jblomo/repos",
+  "events_url": "https://api.github.com/users/jblomo/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/jblomo/received_events",
+  "type": "User",
+  "site_admin": false,
+  "name": "Jim Blomo",
+  "company": null,
+  "blog": "www.linkedin.com/in/jimblomo",
+  "location": null,
+  "email": "jim.blomo+github@gmail.com",
+  "hireable": false,
+  "bio": null,
+  "public_repos": 39,
+  "public_gists": 8,
+  "followers": 33,
+  "following": 3,
+  "created_at": "2009-01-08T20:50:42Z",
+  "updated_at": "2014-10-08T18:50:25Z"
+}

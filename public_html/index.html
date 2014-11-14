@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Sindhuja Jeyabal</title>
+		<meta> Sindhuja Jeyabal's portfolio page, UC Berkeley</meta>
 		<!-- two css files are used-->
 		<link href="text.css" rel="stylesheet" type="text/css" media="all">
 		<link href="bgnImage.css" rel="stylesheet" type="text/css" media="all">
@@ -11,27 +12,64 @@
 	<body>
 		<!-- This div covers top 50% of the screen-->
 		<div id="topRect">
-			<img id="bgImageTop" src="http://i62.tinypic.com/1088xt3.jpg" alt="" />
-			<h1> Sindhuja Jeyabal </h1>
+			<div itemscope itemtype="http://schema.org/Person"> 
+				<img id="bgImageTop" src="http://i62.tinypic.com/1088xt3.jpg" alt="" />
+				<h1 itemprop="name"> Sindhuja Jeyabal </h1>
+			
 			<div class="qualificationdiv">
 				<ol class="plainList">
-					<li> <h3> Masters in Information Management and Systems </h3> </li>
-					<li> <h4> <a href="http://ischool.berkeley.edu"> UC Berkeley School of Information </a> </h4> </li>
+					<li> <h3 itemprop="jobTitle">
+						Masters in Information Management and Systems </h3> </li>
+					<li> <h4 >
+						<a itemprop="url" href="http://ischool.berkeley.edu"> 
+							<span itemprop ="memberOf"> UC Berkeley </span> <span> - </span>
+							<span itemprop = "affiliation"> School of Information </span></a> </h4> </li>
+							<span style="color:#A0AFEB" itemprop = "homeLocation"> Piedmont Avenue, CA, Berkeley </span>
 				</ol>
 			</div>
 		</div>
+		</div>
 		<!-- This div covers bottom 50% of the screen. The image and text are overlaid.-->
-		<div id="bottomRect">			
+		<div id="bottomRect">
+			<div itemscope itemtype="http://schema.org/Organization">
 			<img id="bgImageBottom" src="http://i58.tinypic.com/ouv0uu.jpg" alt=""/>
-			<p> Stay tuned.. </p>
+			<p> <span style="text-decoration:underline"> Previous Organizations: </span><br>
+			<a style="color:#000000" href="http://www.samsung.com" itemprop="url"> 
+				<span style="font-size:20px" itemprop="name"> Samsung Electronics -
+				<span itemprop="location"> Bangalore, India</span></span> </a><br>
+				<span style="font-size:18px" itemprop="makesOffer"> Mobile Phones </span>
+				<span style="font-size:18px" itemprop="department"> Linux Mobiles </span> <br>
+
+			<a style="color:#000000" href="http://www.adobe.com/" itemprop="url">
+				<span style="font-size:20px" itemprop="name"> Adobe Systems -
+				<span itemprop="location"> Bangalore, India</span></span> </a> <br>
+				<span style="font-size:18px" itemprop="makesOffer"> Awesome Products </span>
+				<span style="font-size:18px" itemprop="department"> e-learning </span></p>
+			</div>
+
+			<div class="currentProj" itemscope itemtype="http://schema.org/Organization"> 
+				<span style="text-decoration:underline"> My current projects: </span><br>
+			<span style="font-size:20px" itemprop = "member"> Memeoke - 
+				<a href="http://jblomo.github.io/webarch253/" style="color:#000000"> 
+					Web Architecture </a></span> <br>
+			<span style="font-size:20px" itemprop = "member"> Flock - 
+				<a href="https://blogs.ischool.berkeley.edu/i213f14/" style="color:#000000"> 
+					User Interface Design </a> </span> <br> 
+			<span style="font-size:20px" itemprop = "member"> TED Explore - 
+				<a href="http://www.ischool.berkeley.edu/courses/i256" style="color:#000000"> 
+				Natural Language Processing </a> </span> </div>
+			
+			<div class="eventDiv" itemscope itemtype="http://schema.org/Place"> <br>
+				<span> Originally from </span> <span itemprop="name" style="font-weight:bold"> Venus </span>				
+			</div>
 			<!-- More than 1 style is applied from the CSS - contactdiv applies bold and plainlist applies italic-->
 			<div class="contactdiv">
 				<!-- Use of inline css-->
 				<h2 style="text-decoration:underline; font-style:normal; font-size:20px"> Contact: </h2>
 				<!-- Plainlist uses list without bullets-->
 				<ol class="plainList">
-					<li> sindhuja@berkeley.edu </li>
-					<li> +1 408 389 9281 </li>
+					<li > sindhuja@berkeley.edu </li>
+					<li > +1 408 389 9281 </li>
 				</ol>
 			</div>
 		</div>
